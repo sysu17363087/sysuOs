@@ -1,0 +1,1 @@
+cmd_/home/rose/OSwork/kernelInfo/test2.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/rose/OSwork/kernelInfo/test2.ko /home/rose/OSwork/kernelInfo/test2.o /home/rose/OSwork/kernelInfo/test2.mod.o ;  true
